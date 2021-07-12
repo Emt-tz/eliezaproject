@@ -44,6 +44,7 @@ include "includes.php";
         height: 40px;
         background: grey;
     }
+    
     </style>
 </head>
 <!--/head-->
@@ -207,7 +208,7 @@ $sqlrecinsurance_type = "SELECT * FROM insurance_type where status='Active'";
                         <li><a href="empacc.php">DASHBOARD</a></li>
 
                         
-                        <li class="dropdown"> <a href="#">INSURANCE<i class="fa fa-angle-down"></i></a>
+                        <li class=""> <a href="#">INSURANCE<i class="fa fa-angle-down"></i></a>
                             <ul class="dropdown-menu">
                                 <li><a href="viewcustomer.php">View Customers</a></li>
                                 <li><a href="viewadmininsuracc.php">Insurance Account</a></li>
@@ -220,7 +221,7 @@ $sqlrecinsurance_type = "SELECT * FROM insurance_type where status='Active'";
                                 <li><a href="viewqueries.php">View Feedback</a></li>
                             </ul>
                         </li>
-                        <li class="dropdown"> <a href="#">INSURANCE TYPE<i class="fa fa-angle-down"></i></a>
+                        <li class=""> <a href="#">INSURANCE TYPE<i class="fa fa-angle-down"></i></a>
                             <ul class="dropdown-menu">
                                 <li><a href="insurtype.php">Add Insurance Type</a></li>
                                 <li><a href="viewinsurtype.php">View Insurance Type</a></li>
@@ -230,7 +231,7 @@ $sqlrecinsurance_type = "SELECT * FROM insurance_type where status='Active'";
                                 <li><a href="viewinsurplan.php">View Insurance plan</a></li>
                             </ul>
                         </li>
-                        <li class="dropdown"> <a href="#">SETTINGS<i class="fa fa-angle-down"></i></a>
+                        <li class=""> <a href="#">SETTINGS<i class="fa fa-angle-down"></i></a>
                             <ul class="dropdown-menu">
                                 <li><a href="tax.php">Tax Settings</a></li>
                                 <li><a href="insurancesettings.php">Insurance settings</a></li>

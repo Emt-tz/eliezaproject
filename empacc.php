@@ -67,25 +67,25 @@ echo "No. of records - ".mysqli_num_rows($qsqlrec);
                 </div>
             </div>
 
-            <div class="col-sm-6 col-md-4">
+            <!-- <div class="col-sm-6 col-md-4">
                 <div class="media services-wrap wow fadeInDown">
                     <div class="pull-left">
                         <img class="img-responsive" src="images/insurtype.png" height="100" width="100">
                     </div>
                     <div class="media-body">
                         <h3 class="media-heading">Insurance Plans </h3>
-                        <p> <?php
-$sqlrec = "SELECT * FROM insurance_type WHERE status='Active'";
-$qsqlrec = mysqli_query($con,$sqlrec);
-echo "No. of records - ".mysqli_num_rows($qsqlrec);
+                        <p> 
+// $sqlrec = "SELECT * FROM insurance_type WHERE status='Active'";
+// $qsqlrec = mysqli_query($con,$sqlrec);
+// echo "No. of records - ".mysqli_num_rows($qsqlrec);
 ?></p>
                         <a class="preview" href="viewinsurtype.php" rel="prettyPhoto"><i class="fa fa-eye"></i> View</a>
                     </div>
                 </div>
-            </div>
+            </div> -->
 
 
-            <div class="col-sm-6 col-md-4">
+            <!-- <div class="col-sm-6 col-md-4">
                 <div class="media services-wrap wow fadeInDown">
                     <div class="pull-left">
                         <img class="img-responsive" src="images/plan.png" height="120" width="100">
@@ -102,7 +102,7 @@ echo "No. of records - ".mysqli_num_rows($qsqlrec);
                         <a class="preview" href="viewinsurplan.php" rel="prettyPhoto"><i class="fa fa-eye"></i> View</a>
                     </div>
                 </div>
-            </div>
+            </div> -->
 
             <div class="col-sm-6 col-md-4">
                 <div class="media services-wrap wow fadeInDown">
@@ -122,7 +122,7 @@ echo "No. of records - ".mysqli_num_rows($qsqlrec);
                 </div>
             </div>
 
-            <div class="col-sm-6 col-md-4">
+            <!-- <div class="col-sm-6 col-md-4">
                 <div class="media services-wrap wow fadeInDown">
                     <div class="pull-left">
                         <img class="img-responsive" src="images/pay.png" height="100" width="100">
@@ -137,7 +137,7 @@ echo "No. of records - ".mysqli_num_rows($qsqlrec);
                         <a class="preview" href="viewpolicypay.php" rel="prettyPhoto"><i class="fa fa-eye"></i> View</a>
                     </div>
                 </div>
-            </div>
+            </div> -->
 
             <div class="col-sm-6 col-md-4">
                 <div class="media services-wrap wow fadeInDown">
@@ -195,7 +195,7 @@ echo "No. of records - ".mysqli_num_rows($qsqlrec);
 
 
 
-            <div class="col-sm-6 col-md-4">
+            <!-- <div class="col-sm-6 col-md-4">
                 <div class="media services-wrap wow fadeInDown">
                     <div class="pull-left">
                         <img class="img-responsive" src="images/p7.jpeg" height="100" width="100">
@@ -203,15 +203,15 @@ echo "No. of records - ".mysqli_num_rows($qsqlrec);
                     <div class="media-body">
                         <h3 class="media-heading">Insurance Policy Details</h3>
                         <p> <?php
-            $sqlrec = "SELECT * FROM insurance_scheme where status='Active'";
-            $qsqlrec = mysqli_query($con,$sqlrec);
-            echo "No. of records - ".mysqli_num_rows($qsqlrec);
+            // $sqlrec = "SELECT * FROM insurance_scheme where status='Active'";
+            // $qsqlrec = mysqli_query($con,$sqlrec);
+            // echo "No. of records - ".mysqli_num_rows($qsqlrec);
             ?></p>
                         <a class="preview" href="viewinsurscheme.php" rel="prettyPhoto"><i class="fa fa-eye"></i>
                             View</a>
                     </div>
                 </div>
-            </div>
+            </div> -->
 
             
         </div>
